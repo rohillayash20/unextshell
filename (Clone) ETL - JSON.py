@@ -32,4 +32,9 @@ df1.write.mode("overwrite").option("path","dbfs:/mnt/yashrohstorage/raw/output/y
 
 # COMMAND ----------
 
+# MAGIC %sql
+# MAGIC select count(*) from json.bronze
+
+# COMMAND ----------
+
 
